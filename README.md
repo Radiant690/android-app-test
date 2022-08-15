@@ -1,44 +1,47 @@
-# Android App Test
+# Android Prework - HelloWorld
 
-## Licensing:
+Submitted by: Sebastian Santa
 
-[![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
+HelloWorld is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
 
-## Table of Contents
+Time spent: 4 hours spent in total
 
-* [Description](#description)
-* [Technologies Used](#technologies-used)
-* [Installation](#installation)
-* [Completed Features](#completed-features)
-* [GIF](#gif)
-* [Additional Info](#additional-info)
+## Required Features
 
-## Description:
+The following **required** functionality is completed:
 
-A simple Android application that displays a short bio for myself and has a button that says hello.
+* [x] Image and introductory message displayed on screen
+* [x] Button displayed on screen
+* [x] Toast with message appears when button is pressed 
 
-## Technologies Used
+The following **optional** features are implemented:
 
-* Android Studio
-* Kotlin
+* [ ] List anything else that you can get done to improve the app functionality!
 
-## Installation:
+## Video Walkthrough
 
-* Clone this repo to your desired destination
-* Import application into Android Studio
+Here's a walkthrough of implemented features:
 
-## Completed Features:
+<img src='https://user-images.githubusercontent.com/7333111/184568816-70c46fd1-c619-4544-af50-045aa2b8e9a8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-* Personalized image
-* Personalized text
-* Button
-* Click listener on button
-* Personalized message upon clicking button
+GIF created with [Screencastify](https://www.screencastify.com/).  
 
-## GIF:
+## Notes
 
-![android-prework-walkthrough](https://user-images.githubusercontent.com/7333111/184567827-5c3b6fa6-1a0b-485e-a40a-830e93a1a56e.gif)
+Initially had issues with using a virtual emulator but I was able to troubleshoot it.
 
-## Additional Info:
+## License
 
-Send me an email for any questions about this project at santasebastian@yahoo.com!
+    Copyright 2022 cheesecakeassassin
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
