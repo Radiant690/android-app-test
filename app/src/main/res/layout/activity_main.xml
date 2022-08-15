@@ -11,13 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="48dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/fira_code"
         android:text="@string/sebastian_intro"
+        android:textAlignment="center"
         android:textColor="@color/teal_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/oxhornImageView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fira_code"
+        android:text="@string/github"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introTextView" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -26,9 +39,10 @@
         android:foreground="@color/teal_200"
         app:layout_constraintBottom_toTopOf="@+id/introTextView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538">
+        app:layout_constraintVertical_bias="0.72">
 
     </FrameLayout>
 
@@ -54,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introTextView"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintVertical_bias="0.251" />
 
     <Button
         android:id="@+id/goodbyeButton"
@@ -69,17 +83,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloButton"
         app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
-        android:fontFamily="@font/fira_code"
-        android:text="@string/github"
-        android:textColor="@color/teal_700"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/introTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
