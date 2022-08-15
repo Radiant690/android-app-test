@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">cheesecakeassassin</string>
     <string name="sebastian_intro">Hello World! My name is Sebastian and I love Android development and cheesecake!</string>
-    <string name="button_text">Say hello!</string>
+    <string name="button_greeting">Say hello!</string>
+    <string name="toast_greeting">Hello to you too!</string>
+    <string name="button_farewell">Say goodbye!</string>
+    <string name="toast_farewell">Goodbye to you too!</string>
+    <string name="github">GitHub: cheesecakeassassin</string>
 </resources>
