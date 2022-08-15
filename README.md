@@ -4,7 +4,7 @@ Submitted by: Sebastian Santa
 
 HelloWorld is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
 
-Time spent: 4 hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
@@ -16,13 +16,19 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Added button to say goodbye
+* [x] Changed text font
+* [x] Added frame to picture
+* [x] Changed app name to GitHub username
+* [x] Added GitHub username to app body
+* [x] Changed button styling
+* [x] Added separate toast with farewell message
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://user-images.githubusercontent.com/7333111/184568816-70c46fd1-c619-4544-af50-045aa2b8e9a8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/7333111/184675776-8650ebb9-7071-4a34-81dc-7b88bb778456.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Screencastify](https://www.screencastify.com/).  
 
